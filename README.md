@@ -1,5 +1,3 @@
-Certainly! Below is the content for a README file based on the details provided. You can copy this content into a file named `README.md` in your project directory:
-
 ````markdown
 # Popup Form Component
 
