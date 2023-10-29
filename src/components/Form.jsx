@@ -32,7 +32,3 @@ export default function Form({ formContents, sucessCallBack }) {
     </StyledForm>
   );
 }
-
-export function ClosePopup() {
-  document.getElementById("cutomizable-form-component").remove();
-}

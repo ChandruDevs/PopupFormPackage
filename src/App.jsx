@@ -1,11 +1,9 @@
+import Form from "./components/Form";
+
 import React from "react";
-import { ClosePopup, Form } from "./components/Form";
-export function PoppForm({ formContents, sucessCallBack }) {
-  return (
-    <div>
-      <Form successCallBack={sucessCallBack} formContents={formContents} />
-    </div>
-  );
+
+export function PopUpForm({ formContents, sucessCallBack }) {
+  return <Form sucessCallBack={sucessCallBack} formContents={formContents} />;
 }
 
-export { ClosePopup };
+export default PopUpForm; // Export the component as default
