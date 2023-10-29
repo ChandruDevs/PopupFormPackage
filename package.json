@@ -1,0 +1,37 @@
+{
+  "name": "popup-form-component",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+  "author": "Chandru Palanisamy",
+  "access": "public",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC",
+  "keywords": [
+    "form",
+    "popup"
+  ],
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "files": [
+    "./dist"
+  ],
+  "dependencies": {
+    "@cyntler/react-doc-viewer": "^1.13.0",
+    "styled-components": "^6.0.8"
+  }
+}
